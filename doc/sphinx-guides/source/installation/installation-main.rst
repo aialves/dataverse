@@ -179,6 +179,7 @@ From the "Add Properties" utility at the bottom, use the “Add Property” butt
 mail.smtp.auth					true
 mail.smtp.password				[Default User password*]
 mail.smtp.port					[Port number to route through]
+mail.smtp.starttls.enable			true
 ==============================	==============================
 
 **\*WARNING**: Entering a password here will *not* conceal it on-screen. It’s recommended to use an *app password* (for smtp.gmail.com users) or utilize a dedicated/non-personal user account with SMTP server auths so that you do not risk compromising your password.
